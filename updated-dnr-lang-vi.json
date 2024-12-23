@@ -382,7 +382,25 @@
         },
         "condition": {
             "urlFilter": "/i.imgur.com/*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "keonhacai55.cc",
+                "www.phimlongtieng.net",
+                "www.phimdinhcaoz.com",
+                "www.phimdinhcao.net",
+                "xoilacxj.cc",
+                "90phutz46.live",
+                "vebozf.cc",
+                "cakhiai.cc",
+                "listnhacai88.com",
+                "xoilaczz63.live",
+                "xemtivingon.org",
+                "www.phimchaua.com",
+                "mitomvf.cc",
+                "rakhoii.cc",
+                "plcdn.xyz",
+                "phimmoi.ing",
+                "motphimww.net"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 107
@@ -394,7 +412,9 @@
         },
         "condition": {
             "urlFilter": "/mmo/*",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "vuighe4.com"
+            ],
             "resourceTypes": [
                 "image",
                 "xmlhttprequest"
@@ -435,7 +455,10 @@
         },
         "condition": {
             "urlFilter": "/pop.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "motchill.soy",
+                "ohaytv.ad"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -660,6 +683,13 @@
         "condition": {
             "urlFilter": "/vast.js",
             "initiatorDomains": [
+                "phimmoi.tuphim.net",
+                "boctem.com",
+                "hayhaytv.org",
+                "phimdacap.tv",
+                "hoathinhtq.site",
+                "tvhay26.com",
+                "tvzinghd.co",
                 "player.cloudbeta.win"
             ],
             "resourceTypes": [
@@ -760,7 +790,9 @@
         },
         "condition": {
             "urlFilter": "||acscdn.com/script/aclib.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "ytstv.me"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -786,7 +818,9 @@
         },
         "condition": {
             "urlFilter": "||ads.nghenhinvietnam.vn^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "nghenhinvietnam.vn"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -904,7 +938,9 @@
         },
         "condition": {
             "urlFilter": "||api.anime3s.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "hayhaytv.org"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -919,7 +955,9 @@
         },
         "condition": {
             "urlFilter": "||asecdn.w88media.com/VN/250x250-VN.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "mythethao.net"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -996,7 +1034,17 @@
         },
         "condition": {
             "urlFilter": "||blogger.googleusercontent.com^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "hhninja13.tv",
+                "xem15.com",
+                "hhtm.site",
+                "hoathinh3dtq.site",
+                "hhh3d.tv",
+                "hoathinhtq.site",
+                "hayphim.cc",
+                "yanhh3d.tv",
+                "phimhoathinh3d.vip"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1011,7 +1059,9 @@
         },
         "condition": {
             "urlFilter": "||blvtap.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "phiimoi.net"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1038,7 +1088,8 @@
         "condition": {
             "urlFilter": "||bp.blogspot.com",
             "initiatorDomains": [
-                "timdaily.vn"
+                "timdaily.vn",
+                "xemtivi4k.com"
             ],
             "resourceTypes": [
                 "image"
@@ -1089,7 +1140,15 @@
         },
         "condition": {
             "urlFilter": "||cdn.lfastcdn.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "bongdainfox.tv",
+                "xoilaczz63.live",
+                "90phutz46.live",
+                "rakhoii.cc",
+                "cakhiai.cc",
+                "mitomvf.cc",
+                "90phutvs.cc"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1104,7 +1163,9 @@
         },
         "condition": {
             "urlFilter": "||cdn.thichxemphim1.net/wp-content/themes/halimmovies-child/jscm.min.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "thichxemphim1.net"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -1133,7 +1194,16 @@
         },
         "condition": {
             "urlFilter": "||cdn2-img.net^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "hhpanda.video",
+                "dongchill.pro",
+                "biphim.lat",
+                "motchill.vote",
+                "subnhanh.now",
+                "subnhanhvl.site",
+                "bichill.lat",
+                "dongphim.now"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1195,7 +1265,9 @@
         },
         "condition": {
             "urlFilter": "||cloud.motchill-stream.win/common/ads/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "motchilltv.now"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1330,7 +1402,9 @@
         },
         "condition": {
             "urlFilter": "||down-cvs-vn.img.susercontent.com^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "forum.gocmod.com"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1359,7 +1433,9 @@
         },
         "condition": {
             "urlFilter": "||ff.imacdn.com^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "xem1080.com"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1427,7 +1503,9 @@
         },
         "condition": {
             "urlFilter": "||fun6668.com/Banner/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "mythethao.net"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -1509,7 +1587,9 @@
         },
         "condition": {
             "urlFilter": "||github.com/vietcodeno1/basic-lesson/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "phimno1.me"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -1521,7 +1601,9 @@
         },
         "condition": {
             "urlFilter": "||github.com^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "xemphim18.net"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1606,7 +1688,9 @@
         },
         "condition": {
             "urlFilter": "||hhkungfu.club/88vn",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "hhchina.my"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1707,7 +1791,9 @@
         },
         "condition": {
             "urlFilter": "||i.imgur.com/81uid6d.jpg",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "vozer.net"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -1719,7 +1805,9 @@
         },
         "condition": {
             "urlFilter": "||i.imgur.com/FbUH5AQ.png",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "vozer.net"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -1732,7 +1820,13 @@
         "condition": {
             "urlFilter": "||i.imgur.com^",
             "initiatorDomains": [
-                "banbuondalat.com"
+                "nhacdj.vn",
+                "diendanit.net",
+                "banbuondalat.com",
+                "hoathinhtq.site",
+                "xem.tructiepnba.me",
+                "www.ssphim.us",
+                "phimbet.biz"
             ],
             "resourceTypes": [
                 "image"
@@ -1748,7 +1842,21 @@
         },
         "condition": {
             "urlFilter": "||i.imgur.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "ghienphim.now",
+                "mv.dailyphimz.com",
+                "mv.phimmoiaz.cc",
+                "phimgichill.net",
+                "mythethao.net",
+                "xemtivi4k.com",
+                "vtipster.net",
+                "huphimtv.com",
+                "phimmoi.club",
+                "xemtivi.tvhayhd.tv",
+                "hoathinh4k3.net",
+                "vutruphim.tv",
+                "ketqua247vn.vip"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1763,7 +1871,9 @@
         },
         "condition": {
             "urlFilter": "||i.postimg.cc^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "www.phimmoichilla.xyz"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1778,7 +1888,9 @@
         },
         "condition": {
             "urlFilter": "||i.upanh.org/2024/08/26/10010994843d1ae219dfae70cb-34989a380c05c803e.jpeg",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "file.gocmod.com"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1793,7 +1905,9 @@
         },
         "condition": {
             "urlFilter": "||i.upanh.org^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "forum.gocmod.com"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1808,7 +1922,9 @@
         },
         "condition": {
             "urlFilter": "||i45.servimg.com/u/f45/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "gocmod.com"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -1856,7 +1972,9 @@
         },
         "condition": {
             "urlFilter": "||image.cdend.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "phimmoi.club"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1897,7 +2015,9 @@
         },
         "condition": {
             "urlFilter": "||img.phimmoi.in^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "phimmoi.ing"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1912,7 +2032,9 @@
         },
         "condition": {
             "urlFilter": "||img.upanh.tv^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "phimtuoitho.site"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1927,7 +2049,9 @@
         },
         "condition": {
             "urlFilter": "||imgyn.imageshh.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "mphim14.org"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -1986,7 +2110,11 @@
         },
         "condition": {
             "urlFilter": "||lh3.googleusercontent.com/*=s0",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "animevietsub.cx",
+                "hoathinh4k3.net",
+                "hayghe.me"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -2001,7 +2129,9 @@
         },
         "condition": {
             "urlFilter": "||linkads.xyz^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "hayhaytv.cc"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -2058,7 +2188,9 @@
         },
         "condition": {
             "urlFilter": "||media.nghean24h.vn",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "nghean24h.vn"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -2073,7 +2205,11 @@
         },
         "condition": {
             "urlFilter": "||mediastation.live^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "mn.mediastation.live",
+                "home1.mannhan16.pro",
+                "home1.mannhan16.pro"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -2139,7 +2275,9 @@
         },
         "condition": {
             "urlFilter": "||mplmncb.com/banners-web",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "truyenqqto.com"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -2154,7 +2292,9 @@
         },
         "condition": {
             "urlFilter": "||mplmncb.com/popup/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "truyenqqto.com"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -2198,7 +2338,9 @@
         },
         "condition": {
             "urlFilter": "||newoneinoldoneout.pro/banners-web/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "nettruyenww.com"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -2213,7 +2355,9 @@
         },
         "condition": {
             "urlFilter": "||newoneinoldoneout.pro/popup",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "nettruyenww.com"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -2228,7 +2372,9 @@
         },
         "condition": {
             "urlFilter": "||nhadatvang.vn/images/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "muabanraovat.com"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -2448,7 +2594,10 @@
         },
         "condition": {
             "urlFilter": "||photo2.tinhte.vn^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "live4.vebo4.net",
+                "xem.vebo31.net"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 151
@@ -2460,7 +2609,9 @@
         },
         "condition": {
             "urlFilter": "||pic1025.com^*gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "xemtivi4k.com"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -2472,7 +2623,9 @@
         },
         "condition": {
             "urlFilter": "||play.pdccf.online/staticpdc/ads/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "phimdacap.tv"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -2528,7 +2681,12 @@
         },
         "condition": {
             "urlFilter": "||quoracdn.net^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "www.phimlongtieng.net",
+                "www.phimchaua.com",
+                "www.phimdinhcaoz.com",
+                "www.phimdinhcao.com"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -2557,7 +2715,9 @@
         },
         "condition": {
             "urlFilter": "||raovatdidong.vn/images/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "muabanraovat.com"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -2583,7 +2743,12 @@
         },
         "condition": {
             "urlFilter": "||s2.truyentot.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "hhtq8.vip",
+                "hhtq3d.net",
+                "hhtq5.vip",
+                "hhvsub.com"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -2598,7 +2763,9 @@
         },
         "condition": {
             "urlFilter": "||sansale.online/hh3d.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "yanhh3d.tv"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -2613,7 +2780,9 @@
         },
         "condition": {
             "urlFilter": "||sansale.online/hhtm.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "hhtm.site"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -2705,7 +2874,9 @@
         },
         "condition": {
             "urlFilter": "||static.cdnno.com/storage/topbox/*.webp",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "metruyencv.com"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -2720,7 +2891,9 @@
         },
         "condition": {
             "urlFilter": "||static.ybox.vn^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "ybox.vn"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -2734,7 +2907,8 @@
             "urlFilter": "||stc02bc54661548.cloud.anycastapnic.com^*gif",
             "initiatorDomains": [
                 "xem19.gavang1.net",
-                "xem20.gavang1.net"
+                "xem20.gavang1.net",
+                "gavang3.link"
             ],
             "resourceTypes": [
                 "image"
@@ -2971,7 +3145,9 @@
         },
         "condition": {
             "urlFilter": "||tizihay.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "phiimoi.net"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -2997,7 +3173,13 @@
         },
         "condition": {
             "urlFilter": "||tracker.idocdn.com^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "freeplayervideo.com",
+                "abysscdn.com",
+                "player-cdn.com",
+                "geoip.redirect-ads.com",
+                "playhydrax.com"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 121
@@ -3215,7 +3397,9 @@
         },
         "condition": {
             "urlFilter": "||upanh.vn-z.vn/images/2024/05/20/Ban-sao-Deskin-banner-1.jpeg",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "vn-z.vn"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -3230,7 +3414,9 @@
         },
         "condition": {
             "urlFilter": "||upload.bongda365.news//banner/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "bongda365.news"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -3369,7 +3555,9 @@
         },
         "condition": {
             "urlFilter": "||www.bk8vnaf.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "phimgichill.net"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -3410,7 +3598,9 @@
         },
         "condition": {
             "urlFilter": "||www.imghippo.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "tvzinghd.co"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -3464,7 +3654,9 @@
         },
         "condition": {
             "urlFilter": "||xc.1357668.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "live.7mvn4.com"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -3476,7 +3668,10 @@
         },
         "condition": {
             "urlFilter": "||xem.thapcamtv.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "xem.thapcamtv.com",
+                "vv13.thapcamtivi.live"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -4675,7 +4870,9 @@
         },
         "condition": {
             "urlFilter": "||4.bp.blogspot.com/-Faf4F4bEgfs/X6bgItBh8RI/AAAAAAAADr4/TI07qDfVYWk4cPdNAj8Mn5Q_yVzuG2cJgCK4BGAYYCw/s1600/gvnvh18.png",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "www.gvnvh.net"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -4747,7 +4944,9 @@
         },
         "condition": {
             "urlFilter": "||contextual.media.net/dmedianet.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "azrom.net"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 100201
@@ -4760,6 +4959,7 @@
         "condition": {
             "urlFilter": "||googleads.g.doubleclick.net/pagead/",
             "initiatorDomains": [
+                "cungthi.online",
                 "romgoc.net"
             ],
             "isUrlFilterCaseSensitive": false
@@ -4777,6 +4977,7 @@
                 "vieon.vn",
                 "fptplay.vn",
                 "www.24h.com.vn",
+                "game24h.vn",
                 "sctvonline.vn",
                 "danet.vn"
             ],
@@ -4795,7 +4996,9 @@
         },
         "condition": {
             "urlFilter": "||jsc.adskeeper.co.uk^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "ios.codevn.net"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -4810,7 +5013,10 @@
         },
         "condition": {
             "urlFilter": "||linkads.xyz/www.aphim.info/ads2video/embed.html",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "vungtv.us",
+                "www1.247phim.cc"
+            ],
             "resourceTypes": [
                 "sub_frame"
             ],
@@ -4825,7 +5031,9 @@
         },
         "condition": {
             "urlFilter": "||media.nghean24h.vn/image_resize",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "nghean24h.vn"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -4876,28 +5084,66 @@
             "urlFilter": "||pagead2.googlesyndication.com^",
             "initiatorDomains": [
                 "thuthuatmeovat.net",
+                "www.kites.vn",
+                "phuongtrinhhoahoc.com",
                 "letrongdai.vn",
                 "romgoc.net",
+                "traderviet.tv",
+                "sum.vn",
+                "truyenaudiocv.org",
+                "khuchotot.com",
                 "1shortlink.com",
                 "thelanb.com",
+                "cungthi.online",
                 "lehait.net",
+                "nhacsong.pro",
                 "www.kientruc360.info",
                 "giavang.net",
+                "www.vnjpclub.com",
                 "753x.blogspot.com",
+                "www.ngohoanganhtuan.com",
+                "www.ngohoanganhtuan.net",
                 "toeicexamstore.xyz",
+                "vungoctuan.vn",
+                "ichi.pro",
+                "gocmod.com",
                 "tromcap.com",
+                "www.dafontvn.com",
+                "www.gvnvh.net",
+                "www.sesenblog.com",
+                "filess.us",
+                "xaydungplus.com",
                 "nguonhd.net",
+                "anhdep24.com",
+                "windowslite.net",
+                "www.tiengnhatdongian.com",
                 "www.quangcaoyenbai.com",
+                "ios.codevn.net",
+                "traffic1s.com",
+                "audiotruyenfull.com",
+                "minhpc.com",
+                "vongquaymayman.one",
                 "www.toilaquantri.com",
                 "www.diendancauduong.com",
                 "www.taisachonthi.com",
+                "mifirm.net",
+                "web1s.com",
+                "anonyviet.com",
+                "4g.tintuc247.top",
+                "web1s.asia",
                 "vanhoatamlinh.com",
+                "kiemlua.vn",
                 "www.khotailieuonthi247.com",
+                "ipacrack.com",
                 "duan24h.net",
                 "www.iosviet.com",
                 "hoctoan123.com",
+                "yhocdata.com",
+                "ycongnghe.com",
                 "imail.edu.vn",
+                "thitotnghiepthpt.vn",
                 "mod.lnpchannel.com",
+                "handydecor.com.vn",
                 "apkmoddone.phongroblox.com"
             ],
             "resourceTypes": [
@@ -4936,7 +5182,9 @@
         },
         "condition": {
             "urlFilter": "||securepubads.g.doubleclick.net/tag/js/gpt.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "handydecor.com.vn"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -4951,7 +5199,9 @@
         },
         "condition": {
             "urlFilter": "||services.vlitag.com^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "game24h.vn"
+            ],
             "resourceTypes": [
                 "script",
                 "xmlhttprequest"
@@ -4967,7 +5217,11 @@
         },
         "condition": {
             "urlFilter": "||static.ads-twitter.com/uwt.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "linkneverdie.net",
+                "linkneverdie.top",
+                "linkneverdie2.com"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -4999,7 +5253,9 @@
         },
         "condition": {
             "urlFilter": "||static.doubleclick.net/instream/ad_status.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "handydecor.com.vn"
+            ],
             "resourceTypes": [
                 "xmlhttprequest"
             ],
@@ -5014,7 +5270,9 @@
         },
         "condition": {
             "urlFilter": "||tpc.googlesyndication.com/sodar/sodar2.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "cungthi.online"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 100201
@@ -5026,7 +5284,9 @@
         },
         "condition": {
             "urlFilter": "||vlitag.com/vli-assets/prebid/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "game24h.vn"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -5055,7 +5315,9 @@
         },
         "condition": {
             "urlFilter": "||www3.doubleclick.net^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "the.tube"
+            ],
             "resourceTypes": [
                 "xmlhttprequest"
             ],
@@ -5082,7 +5344,9 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "sexdiaryx.live"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -5129,7 +5393,18 @@
         },
         "condition": {
             "urlFilter": "/theme/custom.int.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "top1sex.me",
+                "sex.tuoi69.store",
+                "hd.javhay.site",
+                "coiphimsex.net",
+                "phimsexviet.io",
+                "phimsexvietnam.app",
+                "web.clipsex.xxx",
+                "gm.phimsexnhanh.tv",
+                "clipsex.cam",
+                "ww1.ditnhau.cc"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -5144,7 +5419,13 @@
         },
         "condition": {
             "urlFilter": "/wp-content/uploads/*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "tuoi69.fyi",
+                "tuoinungvn.org",
+                "teletiengviet.com",
+                "phevkl.to",
+                "viet69.ad"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5159,7 +5440,9 @@
         },
         "condition": {
             "urlFilter": "||pagead2.googlesyndication.com^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "gaingon18.me"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 100201
@@ -5193,7 +5476,9 @@
         },
         "condition": {
             "urlFilter": "||blogger.googleusercontent.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "www.gvnvh.net"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5219,7 +5504,14 @@
         },
         "condition": {
             "urlFilter": "||cdn-01.w3img.com^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "javhd.tech",
+                "phimsexvl69.net",
+                "khosex.blog",
+                "vlxxai.net",
+                "javhd.social",
+                "sexsoc.info"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5287,7 +5579,9 @@
         },
         "condition": {
             "urlFilter": "||cloufdlare.com/ads/vn1.html",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "vl.phe.to"
+            ],
             "resourceTypes": [
                 "sub_frame"
             ],
@@ -5302,7 +5596,9 @@
         },
         "condition": {
             "urlFilter": "||demo123.info/*ads/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "sexxsub.pro"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5317,7 +5613,12 @@
         },
         "condition": {
             "urlFilter": "||discordapp.",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "phym18.lol",
+                "phim18vip.vip",
+                "avvietsub.info",
+                "phimsexsub.ink"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5332,7 +5633,9 @@
         },
         "condition": {
             "urlFilter": "||github.com/taylordale7372189/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "sieudam.site"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5347,7 +5650,9 @@
         },
         "condition": {
             "urlFilter": "||i.ibb.co^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "javnong.cc"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5363,8 +5668,13 @@
         "condition": {
             "urlFilter": "||i.imgur.com^",
             "initiatorDomains": [
+                "phym18.lol",
+                "phim18hd.in",
+                "xamvn.taxi",
+                "fullcliphot.com",
                 "jav.sexkhongchehd.com",
-                "xx.sexkhongchemoi.com"
+                "xx.sexkhongchemoi.com",
+                "bimmup.tv"
             ],
             "resourceTypes": [
                 "image"
@@ -5391,7 +5701,9 @@
         },
         "condition": {
             "urlFilter": "||img.av3x.net/upload/av3x.net/banners/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "phimsexhay669.pro"
+            ],
             "isUrlFilterCaseSensitive": false
         },
         "priority": 201
@@ -5403,7 +5715,9 @@
         },
         "condition": {
             "urlFilter": "||img.buomtv.vip/palivn/ad/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "www.buomtv.io"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5418,7 +5732,9 @@
         },
         "condition": {
             "urlFilter": "||img.congdongmassage.com/banner/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "congdongmassage.com"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5448,7 +5764,12 @@
         },
         "condition": {
             "urlFilter": "||jav.sexsub.icu^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "sex.tuoi69.store",
+                "hd.javhay.site",
+                "jav.sexsub.icu",
+                "vietxxx.xyz"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5607,7 +5928,9 @@
         },
         "condition": {
             "urlFilter": "||play.stream4.me/jwplayer/vast.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "play.stream4.me"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -5622,7 +5945,10 @@
         },
         "condition": {
             "urlFilter": "||qcvip.xyz^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "phevkl.to",
+                "viet69.ad"
+            ],
             "resourceTypes": [
                 "script"
             ],
@@ -5651,7 +5977,18 @@
         },
         "condition": {
             "urlFilter": "||quoracdn.net^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "vlxx.tech",
+                "vlxyz.tube",
+                "sieudam.site",
+                "phevkl.to",
+                "viet69.ad",
+                "phim18vip.vip",
+                "phimsexchichnhau.net",
+                "pheclipsex.net",
+                "vlmupsex.com",
+                "sexhihiz.me"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5702,7 +6039,9 @@
         },
         "condition": {
             "urlFilter": "||sexgaimup.pro^*.gif",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "vlmupsex.com"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5770,7 +6109,9 @@
         },
         "condition": {
             "urlFilter": "||telegra.ph/file/",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "cliphot69.pics"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5785,7 +6126,9 @@
         },
         "condition": {
             "urlFilter": "||telegra.ph^",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "fulllivehot.live"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -5920,7 +6263,9 @@
         },
         "condition": {
             "urlFilter": "||x.clipsexhot.org/theme/main.isa.js",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "x.clipsexhot.org"
+            ],
             "resourceTypes": [
                 "script"
             ],
