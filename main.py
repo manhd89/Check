@@ -20,15 +20,18 @@ def get_redirected_domain(domain):
     """
     try:
         logging.debug(f"Đang kiểm tra tên miền: {domain}")
-        url = f"http://{domain}"
-        with urllib.request.urlopen(url, timeout=5) as response:
+        url = f"http://{domain}"  # Chuẩn hóa URL với http
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=5) as response:
             redirected_url = response.geturl()  # URL sau khi redirect (nếu có)
             redirected_domain = urlparse(redirected_url).netloc  # Lấy tên miền đích
-            logging.info(f"Tên miền {domain} chuyển hướng tới {redirected_domain}")
+            if redirected_domain != domain:
+                logging.info(f"Tên miền {domain} chuyển hướng tới {redirected_domain}")
             return redirected_domain
     except Exception as e:
         logging.error(f"Lỗi khi kiểm tra tên miền {domain}: {e}")
-        return None
+        return domain  # Giữ nguyên tên miền cũ nếu có lỗi
 
 def main():
     # Đọc tệp JSON
@@ -48,9 +51,7 @@ def main():
             for domain in rule["condition"]["initiatorDomains"]:
                 # Lấy tên miền đích sau khi kiểm tra redirect
                 redirected_domain = get_redirected_domain(domain)
-                if redirected_domain:
-                    # Thêm tên miền đích vào danh sách mới nếu hợp lệ
-                    updated_domains.append(redirected_domain)
+                updated_domains.append(redirected_domain)  # Thêm tên miền mới (hoặc giữ nguyên nếu không đổi)
             rule["condition"]["initiatorDomains"] = updated_domains
 
     # Lưu kết quả vào tệp mới
