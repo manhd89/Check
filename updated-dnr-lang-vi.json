@@ -1637,7 +1637,7 @@
         "condition": {
             "urlFilter": "||hinhso.com^",
             "initiatorDomains": [
-                "diendanmaychu.vn"
+                "www.diendanmaychu.vn"
             ],
             "resourceTypes": [
                 "image"
@@ -2570,7 +2570,7 @@
         "condition": {
             "urlFilter": "||s2.phim1280.tv/adjump",
             "initiatorDomains": [
-                "yeuphim.cc"
+                "yeuphim.vip"
             ],
             "isUrlFilterCaseSensitive": false
         },
@@ -4691,7 +4691,7 @@
         "condition": {
             "urlFilter": "||alwingulla.com/88/tag.min.js",
             "initiatorDomains": [
-                "apkmoddone.com"
+                "www.apkmoddone.com"
             ],
             "resourceTypes": [
                 "script",
@@ -4776,7 +4776,7 @@
             "initiatorDomains": [
                 "vieon.vn",
                 "fptplay.vn",
-                "24h.com.vn",
+                "www.24h.com.vn",
                 "sctvonline.vn",
                 "danet.vn"
             ],
@@ -4881,18 +4881,18 @@
                 "1shortlink.com",
                 "thelanb.com",
                 "lehait.net",
-                "kientruc360.info",
+                "www.kientruc360.info",
                 "giavang.net",
                 "753x.blogspot.com",
                 "toeicexamstore.xyz",
                 "tromcap.com",
                 "nguonhd.net",
-                "quangcaoyenbai.com",
-                "toilaquantri.com",
-                "diendancauduong.com",
-                "taisachonthi.com",
+                "www.quangcaoyenbai.com",
+                "www.toilaquantri.com",
+                "www.diendancauduong.com",
+                "www.taisachonthi.com",
                 "vanhoatamlinh.com",
-                "khotailieuonthi247.com",
+                "www.khotailieuonthi247.com",
                 "duan24h.net",
                 "www.iosviet.com",
                 "hoctoan123.com",
