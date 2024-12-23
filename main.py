@@ -1,6 +1,7 @@
 import urllib.request
 import json
 import logging
+from urllib.parse import urlparse
 from datetime import datetime
 
 # Cấu hình logging
@@ -8,27 +9,26 @@ logging.basicConfig(
     level=logging.DEBUG,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.StreamHandler(),  # In log ra console
-        logging.FileHandler("domain_check.log", encoding="utf-8")  # Lưu log vào file
+        logging.StreamHandler(),
+        logging.FileHandler("domain_check.log", encoding="utf-8")
     ]
 )
 
-def check_domain(domain):
+def get_redirected_domain(domain):
     """
-    Hàm kiểm tra tên miền bằng cách gửi yêu cầu HTTP.
+    Kiểm tra xem domain có bị chuyển hướng hay không và trả về tên miền đích.
     """
     try:
         logging.debug(f"Đang kiểm tra tên miền: {domain}")
-        with urllib.request.urlopen(f"http://{domain}", timeout=5) as response:
-            if response.status == 200:
-                logging.info(f"Tên miền hợp lệ: {domain}")
-                return True
-            else:
-                logging.warning(f"Tên miền không phản hồi trạng thái 200: {domain}")
-                return False
+        url = f"http://{domain}"
+        with urllib.request.urlopen(url, timeout=5) as response:
+            redirected_url = response.geturl()  # URL sau khi redirect (nếu có)
+            redirected_domain = urlparse(redirected_url).netloc  # Lấy tên miền đích
+            logging.info(f"Tên miền {domain} chuyển hướng tới {redirected_domain}")
+            return redirected_domain
     except Exception as e:
         logging.error(f"Lỗi khi kiểm tra tên miền {domain}: {e}")
-        return False
+        return None
 
 def main():
     # Đọc tệp JSON
@@ -44,11 +44,14 @@ def main():
     for i, rule in enumerate(data):
         logging.debug(f"Đang xử lý rule {i+1}/{len(data)}")
         if "initiatorDomains" in rule.get("condition", {}):
-            valid_domains = []
+            updated_domains = []
             for domain in rule["condition"]["initiatorDomains"]:
-                if check_domain(domain):
-                    valid_domains.append(domain)
-            rule["condition"]["initiatorDomains"] = valid_domains
+                # Lấy tên miền đích sau khi kiểm tra redirect
+                redirected_domain = get_redirected_domain(domain)
+                if redirected_domain:
+                    # Thêm tên miền đích vào danh sách mới nếu hợp lệ
+                    updated_domains.append(redirected_domain)
+            rule["condition"]["initiatorDomains"] = updated_domains
 
     # Lưu kết quả vào tệp mới
     try:
