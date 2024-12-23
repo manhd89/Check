@@ -1037,7 +1037,9 @@
         },
         "condition": {
             "urlFilter": "||bp.blogspot.com",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "timdaily.vn"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -2028,7 +2030,9 @@
         },
         "condition": {
             "urlFilter": "||live.staticflickr.com",
-            "initiatorDomains": [],
+            "initiatorDomains": [
+                "timdaily.vn"
+            ],
             "resourceTypes": [
                 "image"
             ],
@@ -4880,6 +4884,7 @@
                 "kientruc360.info",
                 "giavang.net",
                 "753x.blogspot.com",
+                "toeicexamstore.xyz",
                 "tromcap.com",
                 "nguonhd.net",
                 "quangcaoyenbai.com",
