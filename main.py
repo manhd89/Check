@@ -1,7 +1,7 @@
 import urllib.request
 import json
 import logging
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlunparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
@@ -47,6 +47,15 @@ def get_redirected_domain(domain):
         logging.error(f"Lỗi khi kiểm tra tên miền {domain}: {e}")
         return get_main_domain(domain)  # Giữ nguyên tên miền cũ nếu có lỗi
 
+def replace_domain_in_url(url, new_domain):
+    """
+    Thay thế tên miền trong URL bằng tên miền mới và giữ nguyên path.
+    """
+    parsed_url = urlparse(url)
+    # Thay tên miền cũ bằng tên miền mới, giữ nguyên phần path, query và fragment
+    new_url = parsed_url._replace(netloc=new_domain)
+    return urlunparse(new_url)
+
 def process_domains(domains):
     """
     Kiểm tra danh sách tên miền bằng đa luồng và trả về danh sách các tên miền đã cập nhật.
@@ -80,6 +89,27 @@ def main():
             # Xử lý đa luồng để kiểm tra redirect của các domain
             updated_domains = process_domains(domains)
             rule["condition"]["initiatorDomains"] = updated_domains
+
+        if "urlFilter" in rule.get("condition", {}):
+            url_filter = rule["condition"]["urlFilter"]
+            if url_filter.startswith("||"):
+                # Loại bỏ '||' đầu tiên khỏi urlFilter để xử lý tên miền
+                url_filter = url_filter[2:]
+            elif url_filter.startswith("|"):
+                # Loại bỏ '|' đầu tiên khỏi urlFilter
+                url_filter = url_filter[1:]
+            
+            # Lấy tên miền của urlFilter
+            url_filter_domain = urlparse(url_filter).netloc
+            # Lấy tên miền chính của urlFilter (bỏ qua www.)
+            main_domain = get_main_domain(url_filter_domain)
+            # Kiểm tra nếu cần thay thế tên miền (giống như với initiatorDomains)
+            new_domain = get_redirected_domain(main_domain)
+            if new_domain != main_domain:
+                logging.info(f"Thay đổi tên miền trong urlFilter từ {main_domain} sang {new_domain}")
+                # Thay thế tên miền trong URL mà không thay đổi phần path
+                updated_url = replace_domain_in_url(url_filter, new_domain)
+                rule["condition"]["urlFilter"] = updated_url
 
     # Lưu kết quả vào tệp mới
     try:
