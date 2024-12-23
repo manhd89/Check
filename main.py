@@ -52,7 +52,7 @@ def process_domains(input_file, output_file, max_threads=10):
         data = json.load(f)
 
     # Kiểm tra redirect cho từng tên miền
-    domains = data.get("initiatorDomains", [])
+    domains = data if isinstance(data, list) else []
     results = []
 
     with ThreadPoolExecutor(max_threads) as executor:
@@ -62,18 +62,15 @@ def process_domains(input_file, output_file, max_threads=10):
             if new_domain:
                 results.append(new_domain)
 
-    # Cập nhật JSON với tên miền mới
-    data["initiatorDomains"] = results
-
     # Ghi lại kết quả vào file JSON mới
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+        json.dump(results, f, indent=4, ensure_ascii=False)
     logging.info("Processing completed and saved to output file.")
 
 if __name__ == "__main__":
     # Tên file input và output
     input_file = "dnr-lang-vi.json"
-    output_file = "updated-dnr-lang-vi.json"
+    output_file = "dnr-lang-vi-updated.json"
 
     start_time = datetime.now()
     process_domains(input_file, output_file, max_threads=10)
